@@ -1,0 +1,25 @@
+.call-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+.remote-video {
+  width: 100%;
+  height: auto;
+}
+
+.local-video {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  height: auto;
+  border: 2px solid white;
+}
+
+.controls {
+  margin-top: 10px;
+}

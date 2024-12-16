@@ -1,0 +1,7 @@
+<!-- home.component.html -->
+<div class="home">
+  <h1>Your ID: {{ myId }}</h1>
+  <input type="text" [(ngModel)]="remoteId" placeholder="Enter ID to call" />
+  <button (click)="startCall()">Call</button>
+</div>
+

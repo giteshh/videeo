@@ -1,0 +1,12 @@
+<!-- call.component.html -->
+<div class="call-page">
+  <video #remoteVideo autoplay playsinline class="remote-video"></video>
+  <video #localVideo autoplay playsinline muted class="local-video"></video>
+
+  <div class="controls">
+    <button (click)="toggleMute()">{{ isMuted ? 'Unmute' : 'Mute' }}</button>
+    <button (click)="toggleVideo()">{{ showVideo ? 'Hide Video' : 'Show Video' }}</button>
+    <button (click)="endCall()">Disconnect</button>
+  </div>
+</div>
+
